@@ -40,8 +40,9 @@ header {
     line-height: 24px; }
   header button {
     background-color: transparent;
-    border: none;
-    height: 37px;
+    border: 2px solid #fff;
+    border-radius: 11px;
+    height: 39px;
     width: 27px;
     position: relative;
     top: 100px;
@@ -51,17 +52,13 @@ header {
     header button:hover {
       transition: 1s;
       opacity: 1; }
-    header button img {
-      position: absolute;
-      top: 0;
-      left: 0; }
     header button .fa-circle {
       font-size: 5px;
       color: #fff;
       opacity: 0.1;
       position: absolute;
       top: 12px;
-      left: 35%; }
+      left: 40%; }
 
 /* .......................ABOUT................... */
 .about_us {
