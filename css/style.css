@@ -1,0 +1,214 @@
+body {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  color: #3c3c3c;
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  font-size: 38px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 0 15%;
+  position: relative;
+  bottom: 75px;
+  display: inline-block;
+  background-color: white; }
+
+h3 {
+  text-transform: uppercase;
+  padding: 1%; }
+
+/* ...........HEADER............. */
+header {
+  background-image: url("../images/header.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase; }
+  header .text > h1 {
+    font-size: 54px; }
+  header .text > p {
+    font-size: 16px;
+    line-height: 24px; }
+  header button {
+    background-color: transparent;
+    border: none;
+    height: 37px;
+    width: 27px;
+    position: relative;
+    top: 100px;
+    left: calc(50%-13.5px);
+    cursor: pointer;
+    opacity: 0.6; }
+    header button:hover {
+      transition: 1s;
+      opacity: 1; }
+    header button img {
+      position: absolute;
+      top: 0;
+      left: 0; }
+    header button .fa-circle {
+      font-size: 5px;
+      color: #fff;
+      opacity: 0.1;
+      position: absolute;
+      top: 12px;
+      left: 35%; }
+
+/* .......................ABOUT................... */
+.about_us {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .about_us .about_container {
+    width: 75vw;
+    text-align: center;
+    margin: 10%;
+    border: 2px solid #3c3c3c;
+    padding: 50px 12%;
+    color: #3c3c3c; }
+    .about_us .about_container p {
+      vertical-align: center;
+      padding: 0;
+      margin: 0 0 40px 0; }
+
+/* .....................SERVICES.................... */
+.services {
+  background-image: url("../images/services.jpg");
+  background-size: cover;
+  padding: 10%;
+  color: #fff; }
+  .services .services_container {
+    border: 2px solid #fff;
+    border-top: none;
+    position: relative;
+    text-align: center;
+    padding: 50px 12%; }
+    .services .services_container h2 {
+      position: relative;
+      bottom: 70px;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      background-color: transparent; }
+    .services .services_container p {
+      letter-spacing: 2px; }
+    .services .services_container:before {
+      content: "";
+      display: block;
+      width: 22%;
+      height: 2.5px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #fff; }
+    .services .services_container:after {
+      content: "";
+      display: block;
+      width: 22%;
+      height: 2.5px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #fff; }
+
+/* .................WHAT WE DO.................. */
+.what_we_do {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .what_we_do .what_we_do_container {
+    width: 75vw;
+    text-align: center;
+    margin: 10%;
+    border: 2px solid #3c3c3c;
+    padding: 50px 12%; }
+    .what_we_do .what_we_do_container .shape {
+      padding: 5%; }
+
+/* ...................OUR WORKS.................. */
+.our_works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .our_works .pic {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2px;
+    min-width: 380px;
+    height: 200px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-grow: 1;
+    transition: 1s; }
+    .our_works .pic:hover {
+      flex-grow: 3;
+      opacity: 0.8; }
+    .our_works .pic p {
+      font-size: 38px;
+      text-transform: uppercase;
+      color: #fff;
+      margin: 10px;
+      position: absolute;
+      bottom: 0; }
+  .our_works .pic1 {
+    background-image: url("../images/layer1.jpg"); }
+  .our_works .pic2 {
+    background-image: url("../images/layer2.jpg"); }
+  .our_works .pic3 {
+    background-image: url("../images/layer3.jpg"); }
+  .our_works .pic4 {
+    background-image: url("../images/layer4.jpg"); }
+  .our_works .pic5 {
+    background-image: url("../images/layer5.jpg"); }
+  .our_works .pic6 {
+    background-image: url("../images/layer6.jpg"); }
+
+/* .................CONTACT................. */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .contact .contact_container {
+    width: 75vw;
+    text-align: center;
+    margin: 10%;
+    border: 2px solid #3c3c3c;
+    padding: 50px 12%;
+    width: 55vw; }
+    .contact .contact_container button {
+      width: 300px;
+      border: none;
+      color: #fff;
+      background-color: #3c3c3c;
+      padding: 10px;
+      letter-spacing: 1px;
+      margin: 20px;
+      cursor: pointer;
+      transition: 1s; }
+      .contact .contact_container button:hover {
+        opacity: 0.7; }
+
+/* ...............FOOTER............. */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 0 20px; }
+  footer img {
+    padding-right: 10px; }
+
+/*# sourceMappingURL=style.css.map */
